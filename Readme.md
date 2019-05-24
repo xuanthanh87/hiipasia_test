@@ -9,7 +9,7 @@
 + **Configure database username and password**
 
 	```yml
-	# spring-oauth2-backend/src/main/resources/application.yml
+	# <BE_PROJECT_DIR>/src/main/resources/application.yml
 	spring:
 	    datasource:
 	        url: jdbc:mysql://localhost:3306/test?useSSL=false
@@ -17,13 +17,13 @@
 	        password: <YOUR_DB_PASSWORD>
 	```
 + **Database schema and ERD**
-	> please find in the folder: BE/database/
+	> please find in the folder: <BE_PROJECT_DIR>/database/
 + **Specify OAuth2 Provider ClientId's and ClientSecrets**
 	
 	> This is optional if you're testing the app in localhost. .
 
 	```yml
-	## spring-oauth2-backend/src/main/resources/application-default.yml
+	## <BE_PROJECT_DIR>/src/main/resources/application-default.yml
 	spring:
         security:
           oauth2:
@@ -53,6 +53,6 @@
 ## Setting up the Frontend Server
 
 ```bash
-cd project home of FE
+cd <FE_PROJECT_DIR>
 npm install && npm start
 ```
