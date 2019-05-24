@@ -48,6 +48,10 @@
 	mvn spring-boot:run
 	```
 
+
++ **StringHelper.java*
+	> please find in the BE project 
+	
 + **API documents http://localhost:8080/swagger-ui.html*
 
 ## Setting up the Frontend Server
