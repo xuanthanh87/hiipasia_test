@@ -16,7 +16,8 @@
 	        username: <YOUR_DB_USERNAME>
 	        password: <YOUR_DB_PASSWORD>
 	```
-
++ **Database schema and ERD**
+	> please find in the folder: BE/database/
 + **Specify OAuth2 Provider ClientId's and ClientSecrets**
 	
 	> This is optional if you're testing the app in localhost. .
